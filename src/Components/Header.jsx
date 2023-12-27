@@ -32,27 +32,46 @@ const Header = (props) => {
               className="collapse navbar-collapse navbar-menu-wrapper"
               id="navbarSupportedContent"
             >
-              <nav>
-                <ul>
-                  <li>
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li>
-                    <Link to="/book">Book</Link>
-                  </li>
-                  <li>
-                    <Link to="/about">About</Link>
-                  </li>
-                  <li>
-                    <Link to="/contact">Contact</Link>
-                  </li>
-                </ul>
-              </nav>
+              <ul className="navbar-nav align-items-lg-center align-items-start ml-auto">
+                <li className="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
+                  <div className="navbar-collapse-logo">
+                    <img
+                      src="images/elibrary.png"
+                      alt=""
+                      width={150}
+                      height="auto"
+                    />
+                  </div>
+                  <button
+                    className="navbar-toggler close-button"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span className="mdi mdi-close pl-5"></span>
+                  </button>
+                </li>
+                <li className="nav-item">
+                  <Link to="/">Home</Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/book">Book</Link>
+                </li>
 
-              <Outlet />
+                <li className="nav-item">
+                  <Link to="/about">About</Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/contact">Contact</Link>
+                </li>
+              </ul>
             </div>
           </div>
         </nav>
+        <Outlet />
       </header>
     </>
   );
