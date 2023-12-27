@@ -6,10 +6,12 @@ import TestingApp from "./TestingApp";
 const Layout = () => {
   return (
     <>
-      {/* <Header /> */}
-      <TestingApp />
+      <div className="content-wrapper">
+        <Header />
+        <TestingApp />
 
-      {/*   <Footer /> */}
+        <Footer />
+      </div>
     </>
   );
 };

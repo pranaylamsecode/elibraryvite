@@ -71,8 +71,8 @@ const Header = (props) => {
             </div>
           </div>
         </nav>
-        <Outlet />
       </header>
+      <Outlet />
     </>
   );
 };

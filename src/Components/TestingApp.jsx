@@ -624,7 +624,7 @@ function TestingApp(props) {
   return (
     <>
       {/*  <ProgressBar /> */}
-      <Header />
+      {/*  <Header /> */}
       <div className="content-wrapper">
         <Hero />
         <LibraryStack />
@@ -634,7 +634,7 @@ function TestingApp(props) {
 
         <Trending />
       </div>
-      <Footer />
+      {/*  <Footer /> */}
       {/*  <BookDetails /> */}
     </>
   );

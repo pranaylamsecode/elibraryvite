@@ -47,12 +47,6 @@ const Footer = () => {
               <a href="#" target="_blank">
                 <span className="mdi mdi-twitter"></span>
               </a>
-              {/* <a href="#">
-                                <span className="mdi mdi-instagram"></span>
-                            </a>
-                            <a href="#">
-                                <span className="mdi mdi-linkedin"></span>
-                            </a> */}
             </div>
           </div>
           <div className="col-12 col-md-6 col-lg-3 ">

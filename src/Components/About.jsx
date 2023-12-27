@@ -4,8 +4,6 @@ import Header from "./Header";
 const About = () => {
   return (
     <div className="content-wrapper">
-      {/* <ProgressBar /> */}
-      <Header />
       <section id="author" className="section-padding authorv2 ">
         <div className="container">
           <div className="row">
